@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+
+# Generated app assets and RPM build output
+build/
+dist/*.rpm
+packaging/rpmbuild/
+
+# Separate OpenPets checkout bundled locally for asset generation
+openpets/

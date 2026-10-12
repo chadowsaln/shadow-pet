@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SHADIOS
+Name[ar]=شاديوس
+GenericName=Desktop Pet
+GenericName[ar]=أليف سطح المكتب التفاعلي
+Comment=Interactive Pixel Art Desktop Pet Companion for Linux
+Comment[ar]=الأليف المكتبي التفاعلي للمطورين والمبرمجين
+Exec=shadios
+Icon=io.github.shadios.pet
+Terminal=false
+Categories=Utility;Amusement;
+Keywords=pet;desktop;pixel;companion;avatar;
+StartupNotify=true

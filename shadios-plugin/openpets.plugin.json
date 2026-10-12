@@ -1,0 +1,99 @@
+{
+  "manifestVersion": 3,
+  "id": "shadios.life",
+  "name": "SHADIOS Life",
+  "description": "SHADIOS walks, climbs walls like a spider, changes outfits, and roams multi-monitor setups.",
+  "version": "1.1.0",
+  "runtime": "javascript",
+  "icon": "sparkles",
+  "sdkVersion": "3.0.0",
+  "entry": "index.js",
+  "permissions": [
+    "pet:move",
+    "pet:reaction",
+    "pet:animate",
+    "pet:speak",
+    "pets:read",
+    "status",
+    "schedule",
+    "storage",
+    "events"
+  ],
+  "assets": {
+    "sprites": {
+      "outfit-royal": {
+        "path": "assets/sprites/outfit-royal.webp",
+        "frameWidth": 208,
+        "frameHeight": 208,
+        "frames": 6,
+        "durationMs": 1400
+      },
+      "outfit-dark": {
+        "path": "assets/sprites/outfit-dark.webp",
+        "frameWidth": 208,
+        "frameHeight": 208,
+        "frames": 6,
+        "durationMs": 1400
+      },
+      "spider-climb": {
+        "path": "assets/sprites/spider-climb.webp",
+        "frameWidth": 208,
+        "frameHeight": 208,
+        "frames": 6,
+        "durationMs": 1100
+      },
+      "spider-wall": {
+        "path": "assets/sprites/spider-wall.webp",
+        "frameWidth": 208,
+        "frameHeight": 208,
+        "frames": 6,
+        "durationMs": 1000
+      }
+    }
+  },
+  "configSchema": {
+    "animations": {
+      "type": "boolean",
+      "default": true,
+      "label": "Play random animations"
+    },
+    "outfits": {
+      "type": "boolean",
+      "default": true,
+      "label": "Change outfits"
+    },
+    "wallClimb": {
+      "type": "boolean",
+      "default": true,
+      "label": "Spider wall climbing"
+    },
+    "animationIntervalSec": {
+      "type": "number",
+      "default": 28,
+      "min": 12,
+      "max": 180,
+      "label": "Animation every (seconds)"
+    },
+    "outfitIntervalMin": {
+      "type": "number",
+      "default": 6,
+      "min": 2,
+      "max": 60,
+      "label": "Outfit change every (minutes)"
+    },
+    "outfitHoldSec": {
+      "type": "number",
+      "default": 40,
+      "min": 15,
+      "max": 180,
+      "label": "Keep outfit on for (seconds)"
+    },
+    "climbIntervalMin": {
+      "type": "number",
+      "default": 3,
+      "min": 1,
+      "max": 30,
+      "label": "Wall climb every (minutes)"
+    }
+  }
+}

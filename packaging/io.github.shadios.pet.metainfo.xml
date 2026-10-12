@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.shadios.pet</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>SHADIOS</name>
+  <summary>Interactive pixel art desktop pet companion for Linux</summary>
+  <description>
+    <p>
+      SHADIOS is an interactive, animated pixel-art desktop pet for Linux (GNOME / Wayland / X11).
+      It features rich animations including coding mode, dancing, waving, sleeping, jumping,
+      heartfelt reactions, and developer-oriented motivational phrases in Arabic and English.
+    </p>
+  </description>
+  <launchable type="desktop-id">io.github.shadios.pet.desktop</launchable>
+  <categories>
+    <category>Utility</category>
+    <category>Amusement</category>
+  </categories>
+  <developer id="io.github.shadios">
+    <name>SHADIOS Team</name>
+  </developer>
+</component>
